@@ -1,0 +1,89 @@
+body {
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  
+}
+
+.header-top, .header-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.utility {
+  display: flex;
+  justify-content: space-between;
+}
+
+.utility-date {
+  padding-right: 10rem;
+}
+
+.utility-buttons {
+  justify-self: end;
+  align-self: center;
+}
+
+.logo-img {
+  width: 12rem;
+}
+
+.header-bottom {
+  line-height: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.kha-banh-img {
+  width: 25rem;
+}
+
+.p1 {
+  grid-area: p1;
+  display: flex;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.p4 {
+  grid-area: p4;
+}
+
+.main-left {
+  display: grid;
+  grid-template-areas:
+    "p1 p1 p1"
+    "p2 p3 p4";
+}
+
+.img-ad {
+  width: 20rem;
+}
+
+footer {
+  background-color: crimson;
+}
+
+a {
+  text-decoration: none;
+}
